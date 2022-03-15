@@ -21,3 +21,24 @@ div{
     justify-content: space-around;
     text-align: center;
 }
+img {
+    border-radius:100%;
+    width: 300px;
+    height: 300px;
+}
+section{
+    display: flex;
+    
+}
+.retornoinicio{
+    text-decoration: none;
+    background-color: aqua;
+    justify-content: space-between;
+    border-radius: 90px;
+    color: rgb(14, 9, 0);
+}
+h1{
+    border-radius: 100px;
+    background-color: aqua;
+    
+}

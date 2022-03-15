@@ -1,73 +1,103 @@
-h1{
-  font-family:sans-serif
-  
+h1 {
+  font-family: sans-serif
 }
-.fixartitu{
+
+.fixartitu {
   text-align: center;
   background-color: rgba(245, 235, 235, 0.712);
   color: black;
 }
-.bordaadote{
+
+.bordaadote {
   background-color: rgb(7, 7, 7);
   border-radius: 30px;
 }
+
 a {
   margin: 40px;
   text-decoration-line: none;
-  cursor:pointer  
-}
-selection{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color:rgb(12, 12, 12);
-  
-}
-.fonte{
-  font-family: Arial, Helvetica, sans-serif;
-  color:rgb(5, 5, 5)
-} 
-body{
-        background-image: url(https://i.pinimg.com/originals/12/fb/55/12fb55ced2a41d35bf436f206fe6d79c.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        
-}
-.imgpets{
-       width: 1250px;height: 450px;
-       opacity: 65%;
-       border-radius: 2%;
+  cursor: pointer
 }
 
-.cabeçalhoprincipal-titulo .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 18px;
-    background-color: #CCC;
-    border: 10px solid
+section {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(12, 12, 12);
+
 }
-.cabeçalhoprincipal-nav{
+
+.fonte {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(5, 5, 5)
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/12/fb/55/12fb55ced2a41d35bf436f206fe6d79c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.imgpets {
+  width: 1250px;
+  height: 450px;
+  opacity: 65%;
+  border-radius: 2%;
+}
+
+.cabeçalhoprincipal-titulo .container {
   display: flex;
-  justify-content: space-between; 
-  background-color: rgb(109, 109, 109);
-  width: 50%;  
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 18px;
+  background-color: #CCC;
+  border: 10px solid
 }
-.petadote{
+
+.cabeçalhoprincipal-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(109, 109, 109);
+  width: 50%;
+}
+
+.petadote {
   text-align: center;
   color: black;
-  
-  
+
+
 }
-.iconeadote{
+
+.iconeadote {
   width: 49px;
-  height: 45px; 
-}
-@media (max-width:1218px){
-header {
-  flex-direction: column;
+  height: 45px;
 }
 
+@media (max-width:3100px) {
+  header {
+    flex-direction: column;
+  }
 }
 
+h2 {
+  text-align: center;
+}
 
+.iconesobrenos {
+  width: 30px;
+  height: 30px;
+}
+.img0{
+  display: flex;
+}
+img {
+  width: 300px;
+  height: 230px;
+  border-radius: 100% ;
+}
+.img01{
+  width: 340px;
+  height: 260px;
+  border-radius: 100% ;
+}
