@@ -1,0 +1,73 @@
+h1{
+  font-family:sans-serif
+  
+}
+.fixartitu{
+  text-align: center;
+  background-color: rgba(245, 235, 235, 0.712);
+  color: black;
+}
+.bordaadote{
+  background-color: rgb(7, 7, 7);
+  border-radius: 30px;
+}
+a {
+  margin: 40px;
+  text-decoration-line: none;
+  cursor:pointer  
+}
+selection{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:rgb(12, 12, 12);
+  
+}
+.fonte{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(5, 5, 5)
+} 
+body{
+        background-image: url(https://i.pinimg.com/originals/12/fb/55/12fb55ced2a41d35bf436f206fe6d79c.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        
+}
+.imgpets{
+       width: 1250px;height: 450px;
+       opacity: 65%;
+       border-radius: 2%;
+}
+
+.cabeçalhoprincipal-titulo .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 18px;
+    background-color: #CCC;
+    border: 10px solid
+}
+.cabeçalhoprincipal-nav{
+  display: flex;
+  justify-content: space-between; 
+  background-color: rgb(109, 109, 109);
+  width: 50%;  
+}
+.petadote{
+  text-align: center;
+  color: black;
+  
+  
+}
+.iconeadote{
+  width: 49px;
+  height: 45px; 
+}
+@media (max-width:1218px){
+header {
+  flex-direction: column;
+}
+
+}
+
+

@@ -1,0 +1,23 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/12/fb/55/12fb55ced2a41d35bf436f206fe6d79c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.icones{
+    width: 45px;
+    height: 45px;
+   
+}
+.icones2{
+    width: 33px;
+    height: 33px;
+    
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
