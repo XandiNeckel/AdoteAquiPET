@@ -1,44 +1,117 @@
-body{
+body {
     background-image: url(https://i.pinimg.com/originals/12/fb/55/12fb55ced2a41d35bf436f206fe6d79c.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    
+
 }
-.icones{
+
+.icones {
     width: 45px;
     height: 45px;
-   
+
 }
-.icones2{
+
+.icones2 {
     width: 33px;
     height: 33px;
-    
+
 }
-div{
+
+div {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
+
 img {
-    border-radius:100%;
+    border-radius: 100%;
     width: 300px;
     height: 300px;
 }
-section{
+
+section {
     display: flex;
-    
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+
 }
-.retornoinicio{
+
+.retornoinicio {
     text-decoration: none;
     background-color: aqua;
-    justify-content: space-between;
     border-radius: 90px;
     color: rgb(14, 9, 0);
 }
-h1{
+
+h1 {
     border-radius: 100px;
     background-color: aqua;
+
+}
+
+.koda {
+    min-width: 300px;
+    min-height: 300px;
+
+}
+
+span {
+    font-size: 2rem;
+    width: 50%;
+    background-color: azure;
+    opacity: 90%;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+@media (max-width:1558px) {
+    div {
+        flex-direction: column;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    flex-wrap: wrap;
+
+
+}
+
+heade h1,
+header h2 {
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:852px) {
+    header {
+        flex-direction: column;
+    }
+}
+header h2 a{
+    margin-right: 13px;
+}
+@media (max-width:320px){
+    img {
+        min-width:200px;
+        min-height: 200px;
+    }
+    div,span{
+        width: 100%;
+    }
+    div {
+        margin:15px 0;
+    }
 }
